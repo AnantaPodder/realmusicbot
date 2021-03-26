@@ -1,4 +1,5 @@
 # -----CONFIGURATION-----
+import os
 LOGGING = False
 LOG_FILE = "realmusicbot.log"
 
@@ -8,7 +9,7 @@ TIMEOUT = 5  # Requests read timeout (secs)
 
 # Get your token using tg @BotFather
 # https://t.me/botfather
-TOKEN = "1237158302:AAGw2hSx0oLnpGQ7byTEwRbqxa-3Y86Dpj8"
+TOKEN = os.environ.get("BOT_TOKEN", None)
 
 MPD_IP = "localhost"
 MPD_PORT = "6600"
