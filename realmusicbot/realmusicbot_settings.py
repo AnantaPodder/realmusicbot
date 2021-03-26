@@ -9,7 +9,7 @@ TIMEOUT = 5  # Requests read timeout (secs)
 
 # Get your token using tg @BotFather
 # https://t.me/botfather
-TOKEN = os.environ.get("BOT_TOKEN", None)
+TOKEN = "1638632457:AAEARTHD_UVHKiNoiPmyjXWcVAW-gdZEEZc"
 
 MPD_IP = "localhost"
 MPD_PORT = "6600"
